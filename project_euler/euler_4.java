@@ -31,7 +31,7 @@ public class euler_4 {
     }
 
     private static boolean isPalindrome(int n) {
-        if (n < 100000 || n > 998001) {
+        if (n < 10000 || n > 998001) {
             return false;
         }
 
