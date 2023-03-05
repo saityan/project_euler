@@ -36,7 +36,7 @@ public class euler_4 {
         }
 
         String[] numbers = String.valueOf(n).split("(?!^)");
-        if (n > 100000) {
+        if (n >= 100000) {
             return numbers[0].equals(numbers[5]) && numbers[1].equals(numbers[4]) && numbers[2].equals(numbers[3]);
         } else
             return numbers[0].equals(numbers[4]) && numbers[1].equals(numbers[3]);
